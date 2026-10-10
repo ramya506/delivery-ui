@@ -1,4 +1,4 @@
-export const API = import.meta.env.VITE_API_URL || "http://localhost:8080";
+export const API = import.meta.env.VITE_API_URL || "https://delivery-api-vna5.onrender.com";
 
 /** GET {API}{path}?params  -> parsed JSON. Empty params are skipped. */
 export async function api(path, params = {}) {
